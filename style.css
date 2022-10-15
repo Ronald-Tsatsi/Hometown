@@ -1,8 +1,8 @@
 body{
     font-family: 'Happy Monkey', cursive;
     text-align: center;
-    background: darkgray;
-    color: #ffffff;
+    background: #1C2751;
+    color: #8A9586;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +21,11 @@ h1, h2, h3, h4, p {
 }
 
 .economy{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+    row-gap: 100px;
+    
 }
 
 .economy1{
@@ -31,6 +35,10 @@ h1, h2, h3, h4, p {
 .shops, .vendors, .transport, .service_provider{
     text-align: justify;
     margin: 4px 10px;
+    background-color: #5572B2;
+    padding: 10px;
+    border-radius: 10px;
+    color: #82A1D1;
 }
 
 .secondary, .primary{
@@ -46,4 +54,10 @@ h1, h2, h3, h4, p {
 .bprimary{
     margin: 10px;
     text-align: justify;
+}
+
+
+img{
+    width: 100%;
+    border-radius: 5px;
 }
